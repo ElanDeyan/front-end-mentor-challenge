@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://elandeyan.github.io/front-end-mentor-challenge/)
 
 ## My process
 
