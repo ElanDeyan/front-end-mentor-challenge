@@ -1,0 +1,17 @@
+$primary-cyan-color: #2ab2af;
+$primary-yellow-color: #c0df34;
+$neutral-gray-color: #e5eff5;
+$neutral-blue-color: #98a6bd;
+$font-weights: (
+    "regular": 400,
+    "bold": 700
+);
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name );
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url("../font/Karla-VariableFont_wght.ttf") format('truetype');
+}

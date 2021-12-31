@@ -1,0 +1,212 @@
+/* line 1, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_resets.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url("../font/Karla-VariableFont_wght.ttf") format("truetype");
+}
+
+/* line 1, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body {
+  background-color: #F0F0F0;
+  font-family: 'Karla', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 7, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main {
+  margin: 8.125% 22.5%;
+}
+
+/* line 10, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1.25fr;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+/* line 17, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container .invite {
+  grid-column: span 2;
+  padding: 20px 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* line 24, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container .subscription {
+  padding: 20px 30px;
+  border-bottom-left-radius: 10px;
+}
+
+/* line 27, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container .subscription .text {
+  display: flex;
+  align-items: center;
+}
+
+/* line 33, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container .subscription .price .big {
+  font-size: 25px;
+}
+
+/* line 38, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container .subscription button {
+  display: contents;
+}
+
+/* line 41, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container .subscription button .btn {
+  padding: 10px 20px;
+  border-radius: 7.5px;
+  border: none;
+}
+
+/* line 49, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container .why-us {
+  padding: 20px 30px;
+  border-bottom-right-radius: 10px;
+}
+
+/* line 53, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+body main .container .why-us .list {
+  list-style: none;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 62, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+  body main {
+    margin: 7.5% 12.5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 69, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+  body main {
+    margin: 5% 10%;
+  }
+  /* line 72, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+  body main .container {
+    grid-template-rows: repeat(3, 1fr);
+  }
+  /* line 75, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+  body main .container .subscription {
+    grid-row: 2;
+    grid-column: span 2;
+    border-bottom-left-radius: 0;
+  }
+  /* line 81, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_base.scss */
+  body main .container .why-us {
+    grid-row: 3;
+    grid-column: span 2;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+/* line 1, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.invite {
+  background-color: #fff;
+}
+
+/* line 4, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.invite .title {
+  color: #2ab2af;
+  margin: 20px auto;
+}
+
+/* line 9, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.invite .subtitle {
+  color: #c0df34;
+  margin: 10px auto;
+}
+
+/* line 14, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.invite .text {
+  color: #98a6bd;
+}
+
+/* line 19, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription, .why-us {
+  color: #fff;
+}
+
+/* line 23, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription {
+  background-color: #2ab2af;
+}
+
+/* line 26, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription .subtitle {
+  color: #e5eff5;
+  margin: 20px auto;
+}
+
+/* line 31, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription .price {
+  margin: 10px auto;
+}
+
+/* line 34, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription .price .big {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+/* line 39, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription .price small {
+  color: #e5eff5;
+}
+
+/* line 44, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription .text {
+  color: #e5eff5;
+  margin: 20px auto;
+}
+
+/* line 51, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription button .btn-sucess {
+  background-color: #c0df34;
+}
+
+/* line 54, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription button .btn-sucess:hover {
+  background-color: #9ec200;
+}
+
+/* line 59, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.subscription button .link {
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* line 68, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.why-us {
+  background-color: #4ABEBD;
+}
+
+/* line 71, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.why-us .subtitle {
+  margin: 15px auto;
+}
+
+/* line 75, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.why-us .list {
+  color: #e5eff5;
+}
+
+/* line 78, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
+.why-us .list li {
+  margin-bottom: 2.5px;
+}
+
+/*# sourceMappingURL=style.css.map */

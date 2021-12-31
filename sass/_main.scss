@@ -1,0 +1,82 @@
+.invite {
+    background-color: #fff;
+
+    .title {
+        color: $primary-cyan-color;
+        margin: 20px auto;
+    }
+
+    .subtitle {
+        color: $primary-yellow-color;
+        margin: 10px auto;
+    }
+
+    .text {
+        color: $neutral-blue-color;
+    }
+}
+
+.subscription, .why-us {
+    color: #fff;
+}
+
+.subscription {
+    background-color: $primary-cyan-color;
+
+    .subtitle {
+        color: $neutral-gray-color;
+        margin: 20px auto;
+    }
+
+    .price {
+        margin: 10px auto;
+        
+        .big {
+            font-weight: weight(bold);
+            margin-right: 10px;
+        }
+        
+        small {
+            color: $neutral-gray-color;
+        }
+    }
+
+    .text {
+        color: $neutral-gray-color;
+        margin: 20px auto;
+    }
+
+    button {
+
+        .btn-sucess {
+            background-color: $primary-yellow-color;
+
+            &:hover {
+                background-color: #9ec200;
+            }
+        }
+        
+        .link {
+            display: block;
+            text-decoration: none;
+            font-weight: weight(bold);
+            color: #fff;
+        }
+    }
+}
+
+.why-us {
+    background-color: #4ABEBD;
+
+    .subtitle {
+        margin: 15px auto;
+    }
+
+    .list {
+        color: $neutral-gray-color;
+        
+        li {
+            margin-bottom: 2.5px;
+        }
+    }
+}
