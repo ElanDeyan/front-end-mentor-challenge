@@ -48,13 +48,11 @@
         margin: 20px auto;
     }
 
-    button {
+    .btn-sucess {
+        background-color: $primary-yellow-color;
 
-        .btn-sucess {
-            background-color: $primary-yellow-color;
-
-            &:hover {
-                background-color: #9ec200;
+        &:hover {
+            background-color: #9ec200;
             }
         }
         
@@ -64,7 +62,7 @@
             font-weight: weight(bold);
             color: #fff;
         }
-    }
+    
 }
 
 .why-us {
