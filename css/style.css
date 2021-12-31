@@ -126,6 +126,7 @@ body main .container .why-us .list {
 .invite .subtitle {
   color: #c0df34;
   margin: 10px auto;
+  font-size: 16px;
 }
 
 /* line 14, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
@@ -147,6 +148,7 @@ body main .container .why-us .list {
 .subscription .subtitle {
   color: #e5eff5;
   margin: 20px auto;
+  font-size: 16px;
 }
 
 /* line 31, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
@@ -197,6 +199,7 @@ body main .container .why-us .list {
 /* line 71, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
 .why-us .subtitle {
   margin: 15px auto;
+  font-size: 16px;
 }
 
 /* line 75, ../../../Documents/CursoWeb/experimentos/single-price-grid-component-master/single-price-grid-component-master/sass/_main.scss */
