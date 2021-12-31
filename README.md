@@ -11,6 +11,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Notes](#notes)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -43,6 +44,10 @@ Users should be able to:
 ### What I learned
 
 Esse desafio me ajudou a aplicar o que vinha estudando de Scss, como organizar a estrutura da página e desenvolver um fluxo de trabalho mais organizado.
+
+### Notes
+
+Existe um erro que ainda vai ser corrijido, usar o <a> dentro do <button>. 
 
 ## Author
 
